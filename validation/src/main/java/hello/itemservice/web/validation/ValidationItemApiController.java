@@ -22,7 +22,7 @@ public class ValidationItemApiController {
             log.info("검증 오류 발생 errors={}", bindingResult);
             return bindingResult.getAllErrors();
         }
-        
+
         log.info("성공 로직 실행");
         return form;
     }
