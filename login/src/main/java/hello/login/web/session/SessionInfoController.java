@@ -31,5 +31,3 @@ public class SessionInfoController {
         return "세션 출력";
     }
 }
-
-}
